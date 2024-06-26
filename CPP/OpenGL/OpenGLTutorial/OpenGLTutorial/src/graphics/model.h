@@ -29,6 +29,8 @@ public:
 
 	void cleanup();
 
+	void computeBoundingBox(glm::vec3& min, glm::vec3& max);
+
 protected:
 	bool noTex;
 
@@ -40,6 +42,8 @@ protected:
 	void processNode(aiNode* node, const aiScene* scene);
 	Mesh processMesh(aiMesh* mesh, const aiScene* scene);
 	std::vector<Texture> loadTextures(aiMaterial* mat, aiTextureType type);
+
+
 };
 
 #endif

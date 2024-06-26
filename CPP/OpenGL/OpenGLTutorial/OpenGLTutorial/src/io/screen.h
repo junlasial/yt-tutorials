@@ -6,27 +6,30 @@
 
 class Screen {
 public:
-	static unsigned int SCR_WIDTH;
-	static unsigned int SCR_HEIGHT;
+    static unsigned int SCR_WIDTH;
+    static unsigned int SCR_HEIGHT;
 
-	static void framebufferSizeCallback(GLFWwindow* window, int width, int height);
+    static void framebufferSizeCallback(GLFWwindow* window, int width, int height);
 
-	Screen();
+    Screen();
 
-	bool init();
+    bool init();
 
-	void setParameters();
+    void setParameters();
 
-	// main loop
-	void update();
-	void newFrame();
+    // main loop
+    void update();
+    void newFrame();
 
-	// window closing
-	bool shouldClose();
-	void setShouldClose(bool shouldClose);
+    // window closing
+    bool shouldClose();
+    void setShouldClose(bool shouldClose);
+
+    // Getter for the window
+    GLFWwindow* getWindow() const;
 
 private:
-	GLFWwindow* window;
+    GLFWwindow* window;
 };
 
 #endif

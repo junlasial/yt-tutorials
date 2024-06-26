@@ -60,3 +60,7 @@ bool Screen::shouldClose() {
 void Screen::setShouldClose(bool shouldClose) {
 	glfwSetWindowShouldClose(window, shouldClose);
 }
+
+GLFWwindow* Screen::getWindow() const {
+	return window;
+}

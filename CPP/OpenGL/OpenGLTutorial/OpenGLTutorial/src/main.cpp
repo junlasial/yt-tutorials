@@ -65,13 +65,31 @@ int main() {
 
 	screen.setParameters();
 
+	// Set the cursor mode to normal to display the cursor
+	glfwSetInputMode(screen.getWindow(), GLFW_CURSOR, GLFW_CURSOR_NORMAL);
+
+
 	// SHADERS===============================
 	Shader shader("assets/object.vs", "assets/object.fs");
 	Shader lampShader("assets/object.vs", "assets/lamp.fs");
 
 	// MODELS==============================
-	Model m(glm::vec3(0.0f, -2.0f, -5.0f), glm::vec3(0.05f), true);
-	m.loadModel("assets/models/m4a1/scene.gltf");
+	Model m(glm::vec3(0.0f, 0.0f, -5.0f), glm::vec3(0.001f), true); // Scale down the model
+
+	m.loadModel("assets/models/part_a/g0.obj");
+	m.loadModel("assets/models/part_a/g1.obj");
+	m.loadModel("assets/models/part_a/g2.obj");
+	
+
+	m.loadModel("assets/models/part_b/g0.obj");
+	m.loadModel("assets/models/part_b/g1.obj");
+
+
+	glm::vec3 min, max;
+	m.computeBoundingBox(min, max);
+	std::cout << "Bounding Box Min: " << min.x << ", " << min.y << ", " << min.z << std::endl;
+	std::cout << "Bounding Box Max: " << max.x << ", " << max.y << ", " << max.z << std::endl;
+
 
 	// LIGHTS
 	DirLight dirLight = { glm::vec3(-0.2f, -1.0f, -0.3f), glm::vec4(0.1f, 0.1f, 0.1f, 1.0f), glm::vec4(0.4f, 0.4f, 0.4f, 1.0f), glm::vec4(0.5f, 0.5f, 0.5f, 1.0f) };
