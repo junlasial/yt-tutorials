@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\jun\\Documents\\GitHub\\yt-tutorials\\CPP\\OpenGL\\OpenGLTutorial\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FD35C98-7359-4079-A044-CC571BC1AE1B}|OpenGLTutorial\\OpenGLTutorial.vcxproj|C:\\Users\\jun\\Documents\\GitHub\\yt-tutorials\\CPP\\OpenGL\\OpenGLTutorial\\OpenGLTutorial\\src\\io\\screen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0FD35C98-7359-4079-A044-CC571BC1AE1B}|OpenGLTutorial\\OpenGLTutorial.vcxproj|solutionrelative:OpenGLTutorial\\src\\io\\screen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0FD35C98-7359-4079-A044-CC571BC1AE1B}|OpenGLTutorial\\OpenGLTutorial.vcxproj|C:\\Users\\jun\\Documents\\GitHub\\yt-tutorials\\CPP\\OpenGL\\OpenGLTutorial\\OpenGLTutorial\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0FD35C98-7359-4079-A044-CC571BC1AE1B}|OpenGLTutorial\\OpenGLTutorial.vcxproj|solutionrelative:OpenGLTutorial\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FD35C98-7359-4079-A044-CC571BC1AE1B}|OpenGLTutorial\\OpenGLTutorial.vcxproj|C:\\Users\\jun\\Documents\\GitHub\\yt-tutorials\\CPP\\OpenGL\\OpenGLTutorial\\OpenGLTutorial\\src\\io\\joystick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0FD35C98-7359-4079-A044-CC571BC1AE1B}|OpenGLTutorial\\OpenGLTutorial.vcxproj|solutionrelative:OpenGLTutorial\\src\\io\\joystick.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD35C98-7359-4079-A044-CC571BC1AE1B}|OpenGLTutorial\\OpenGLTutorial.vcxproj|C:\\Users\\jun\\Documents\\GitHub\\yt-tutorials\\CPP\\OpenGL\\OpenGLTutorial\\OpenGLTutorial\\src\\graphics\\model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0FD35C98-7359-4079-A044-CC571BC1AE1B}|OpenGLTutorial\\OpenGLTutorial.vcxproj|solutionrelative:OpenGLTutorial\\src\\graphics\\model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0FD35C98-7359-4079-A044-CC571BC1AE1B}|OpenGLTutorial\\OpenGLTutorial.vcxproj|C:\\Users\\jun\\Documents\\GitHub\\yt-tutorials\\CPP\\OpenGL\\OpenGLTutorial\\OpenGLTutorial\\src\\io\\screen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0FD35C98-7359-4079-A044-CC571BC1AE1B}|OpenGLTutorial\\OpenGLTutorial.vcxproj|solutionrelative:OpenGLTutorial\\src\\io\\screen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FD35C98-7359-4079-A044-CC571BC1AE1B}|OpenGLTutorial\\OpenGLTutorial.vcxproj|C:\\Users\\jun\\Documents\\GitHub\\yt-tutorials\\CPP\\OpenGL\\OpenGLTutorial\\OpenGLTutorial\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0FD35C98-7359-4079-A044-CC571BC1AE1B}|OpenGLTutorial\\OpenGLTutorial.vcxproj|solutionrelative:OpenGLTutorial\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0FD35C98-7359-4079-A044-CC571BC1AE1B}|OpenGLTutorial\\OpenGLTutorial.vcxproj|C:\\Users\\jun\\Documents\\GitHub\\yt-tutorials\\CPP\\OpenGL\\OpenGLTutorial\\OpenGLTutorial\\src\\graphics\\model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0FD35C98-7359-4079-A044-CC571BC1AE1B}|OpenGLTutorial\\OpenGLTutorial.vcxproj|solutionrelative:OpenGLTutorial\\src\\graphics\\model.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FD35C98-7359-4079-A044-CC571BC1AE1B}|OpenGLTutorial\\OpenGLTutorial.vcxproj|C:\\Users\\jun\\Documents\\GitHub\\yt-tutorials\\CPP\\OpenGL\\OpenGLTutorial\\OpenGLTutorial\\src\\graphics\\model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "screen.cpp",
               "DocumentMoniker": "C:\\Users\\jun\\Documents\\GitHub\\yt-tutorials\\CPP\\OpenGL\\OpenGLTutorial\\OpenGLTutorial\\src\\io\\screen.cpp",
               "RelativeDocumentMoniker": "OpenGLTutorial\\src\\io\\screen.cpp",
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "OpenGLTutorial\\src\\io\\joystick.cpp",
               "ToolTip": "C:\\Users\\jun\\Documents\\GitHub\\yt-tutorials\\CPP\\OpenGL\\OpenGLTutorial\\OpenGLTutorial\\src\\io\\joystick.cpp",
               "RelativeToolTip": "OpenGLTutorial\\src\\io\\joystick.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-26T17:12:55.193Z",
               "EditorCaption": ""
@@ -68,12 +68,11 @@
               "RelativeToolTip": "OpenGLTutorial\\src\\graphics\\model.h",
               "ViewState": "AQIAABAAAAAAAQAAAMAtwB8AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-26T16:58:41.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T16:58:41.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "model.cpp",
               "DocumentMoniker": "C:\\Users\\jun\\Documents\\GitHub\\yt-tutorials\\CPP\\OpenGL\\OpenGLTutorial\\OpenGLTutorial\\src\\graphics\\model.cpp",
               "RelativeDocumentMoniker": "OpenGLTutorial\\src\\graphics\\model.cpp",
@@ -81,18 +80,17 @@
               "RelativeToolTip": "OpenGLTutorial\\src\\graphics\\model.cpp",
               "ViewState": "AQIAAC0AAAAAAAAAAAAuwEkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-26T16:33:52.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T16:33:52.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\jun\\Documents\\GitHub\\yt-tutorials\\CPP\\OpenGL\\OpenGLTutorial\\OpenGLTutorial\\src\\main.cpp",
               "RelativeDocumentMoniker": "OpenGLTutorial\\src\\main.cpp",
               "ToolTip": "C:\\Users\\jun\\Documents\\GitHub\\yt-tutorials\\CPP\\OpenGL\\OpenGLTutorial\\OpenGLTutorial\\src\\main.cpp",
               "RelativeToolTip": "OpenGLTutorial\\src\\main.cpp",
-              "ViewState": "AQIAAAQAAAAAzMzMzIwjwFMAAAAlAAAA",
+              "ViewState": "AQIAABAAAACQmZmZmRkmwBcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-26T16:32:38.652Z",
               "EditorCaption": ""
